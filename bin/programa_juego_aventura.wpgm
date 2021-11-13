@@ -1,0 +1,15 @@
+import wollok.game.*
+import inicio.*
+
+
+program juego_aventura {
+
+	game.title("Amongi Hur")
+	game.height(16)
+	game.width(15)
+	game.boardGround("fondoBlanco.png")
+
+	niveles.configurate()
+	
+	game.start() 
+}
